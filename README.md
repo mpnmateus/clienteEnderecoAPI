@@ -61,6 +61,9 @@ src/
     mvn spring-boot:run
     ```
 4. Acesse a API localmente em: `http://localhost:8080`
+    
+   
+5. Acesse a documentação da API via Swagger em: `http://localhost:8080/swagger-ui.html`
 
 ## Endpoints da API
 
