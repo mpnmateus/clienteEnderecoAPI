@@ -1,7 +1,9 @@
 package com.clienteEnderecoAPI.service;
 
 import com.clienteEnderecoAPI.model.Cliente;
+import org.springframework.stereotype.Service;
 
+@Service
 public interface ClienteService {
 
     Iterable<Cliente> buscarTodos();
