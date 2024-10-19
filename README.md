@@ -5,6 +5,8 @@
 ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 ![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
 ![Feign](https://img.shields.io/badge/Feign-007396?style=for-the-badge&logo=feign&logoColor=white)
+![API REST](https://img.shields.io/badge/API%20REST-007EC6?style=for-the-badge&logo=api&logoColor=white)
+
 
 ## Descrição do Projeto
 Este projeto é uma API REST desenvolvida em Java com Spring Boot para o cadastro de clientes. A aplicação consome a API pública do [ViaCep](https://viacep.com.br) para preencher automaticamente os dados de endereço dos clientes com base no CEP informado. A API oferece endpoints para criar, atualizar, buscar e remover clientes, garantindo que as informações de endereço sejam consistentes e completas.
