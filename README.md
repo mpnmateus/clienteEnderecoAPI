@@ -94,14 +94,23 @@ src/
 ### Buscar Cliente por ID
 - **GET** `/clientes/{id}`
 
-### Atualizar Cliente
+### Atualizar Cliente por ID
 - **PUT** `/clientes/{id}`
 
-### Deletar Cliente
+### Deletar Cliente por ID
 - **DELETE** `/clientes/{id}`
+- 
+### Buscar lista de Clientes
+- **GET** `/clientes`
+- 
+### Inserir Clientes por Nome e Cep
+- **POST** `/clientes`
 
 ## Integração com a API ViaCep
 Este projeto consome a API pública [ViaCep](https://viacep.com.br) para obter informações detalhadas sobre o endereço a partir do CEP informado pelo cliente. A integração é feita através do FeignClient, que facilita o consumo de serviços externos em RESTful APIs.
+
+## Integração com a API ViaCep
+![Interface no Swagger para visualizar os endpoints](media/Swagger.JPG)
 
 ## Testes
 Os testes unitários foram implementados utilizando o framework **JUnit 5**. Para rodar os testes, execute o seguinte comando Maven:
