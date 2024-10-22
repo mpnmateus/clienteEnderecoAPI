@@ -51,7 +51,7 @@
 			<version>2.6.0</version>
 		</dependency>
 
-		<!-- Adc manualmente -->
+		<!-- OpenAPI Swagger // Adc manualmente -->
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-ui</artifactId>
