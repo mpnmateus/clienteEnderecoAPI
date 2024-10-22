@@ -42,6 +42,8 @@ public class ClienteServiceImpl implements ClienteService {
             enderecoRepository.save(novoEndereco);
             return novoEndereco;
         });
+        cliente.setEndereco(enrereco);
+        clienteRepository.save(cliente);
     }
 
     @Override
