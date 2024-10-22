@@ -109,7 +109,7 @@ src/
 ## Integração com a API ViaCep
 Este projeto consome a API pública [ViaCep](https://viacep.com.br) para obter informações detalhadas sobre o endereço a partir do CEP informado pelo cliente. A integração é feita através do FeignClient, que facilita o consumo de serviços externos em RESTful APIs.
 
-## Integração com a API ViaCep
+## Interface Swagger para visualização dos endpoints
 ![Interface no Swagger para visualizar os endpoints](media/Swagger.JPG)
 
 ## Testes
