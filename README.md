@@ -99,10 +99,10 @@ src/
 
 ### Deletar Cliente por ID
 - **DELETE** `/clientes/{id}`
-- 
+
 ### Buscar lista de Clientes
 - **GET** `/clientes`
-- 
+
 ### Inserir Clientes por Nome e Cep
 - **POST** `/clientes`
 
