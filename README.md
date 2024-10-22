@@ -32,14 +32,12 @@ O projeto segue a estrutura MVC (Model-View-Controller) e está organizado da se
 src/
  └── main/
      └── java/
-         └── com/
-             └── seunome/
-                 └── clienteservice/
-                     ├── controller/  # Controladores REST
-                     ├── model/       # Entidades Cliente e Endereço
-                     ├── service/     # Lógica de negócios e integração ViaCep
-                     └── repository/  # Repositórios JPA
-
+         └── com.clienteEnderecoAPI/
+                ├── controller/  # Controladores REST
+                ├── model/       # Entidades Cliente e Endereço
+                ├── service/     # Lógica de negócios e integração ViaCep
+                └── repository/  # Repositórios JPA
+             
 ```
 
 ## Instalação
