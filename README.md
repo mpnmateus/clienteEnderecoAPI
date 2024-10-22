@@ -2,9 +2,10 @@
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
-![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
 ![Feign](https://img.shields.io/badge/Feign-007396?style=for-the-badge&logo=feign&logoColor=white)
+![H2 Database](https://img.shields.io/badge/H2-003B57?style=for-the-badge&logo=h2&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit5-25A162?style=for-the-badge&logo=junit5&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
 
 ## Descrição do Projeto
 Este projeto é uma API REST desenvolvida em Java com Spring Boot para o cadastro de clientes. A aplicação consome a API pública do [ViaCep](https://viacep.com.br) para preencher automaticamente os dados de endereço dos clientes com base no CEP informado garantindo sua persistência. A API oferece endpoints para criar, atualizar, buscar e remover clientes, garantindo que as informações de endereço sejam consistentes e completas. Extra: simulação de trabalho coletivo usando comandos git ao executar criação, uso e merge de branches, com lançamentos e aprovação de PRs.
