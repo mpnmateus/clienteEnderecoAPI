@@ -60,6 +60,6 @@ public class ClienteServiceImpl implements ClienteService {
 
     @Override
     public void deletar(Long id) {
-
+        clienteRepository.deleteById(id);
     }
 }
