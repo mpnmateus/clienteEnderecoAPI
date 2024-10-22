@@ -1,6 +1,7 @@
 package com.clienteEnderecoAPI.service.impl;
 
 import com.clienteEnderecoAPI.model.Cliente;
+import com.clienteEnderecoAPI.model.Endereco;
 import com.clienteEnderecoAPI.repository.ClienteRepository;
 import com.clienteEnderecoAPI.repository.EnderecoRepository;
 import com.clienteEnderecoAPI.service.ClienteService;
@@ -16,6 +17,12 @@ public class ClienteServiceImpl implements ClienteService {
     @Autowired
     private ClienteRepository clienteRepository;
 
+    @Autowired
+    private EnderecoRepository enderecoRepository;
+
+    @Autowired
+    ViaCepService viaCepService;
+
     @Override
     public Iterable<Cliente> buscarTodos() {
         return clienteRepository.findAll();
@@ -29,7 +36,12 @@ public class ClienteServiceImpl implements ClienteService {
 
     @Override
     public void inserir(Cliente cliente) {
-
+        String cep = cliente.getEndereco().getCep();
+        Endereco enrereco = enderecoRepository.findById(cep).orElseGet(() -> {
+            Endereco novoEndereco = viaCepService.consultarCep(cep);
+            enderecoRepository.save(novoEndereco);
+            return novoEndereco;
+        });
     }
 
     @Override
