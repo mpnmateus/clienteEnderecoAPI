@@ -11,11 +11,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class ClienteServiceImpl implements ClienteService {
 
-
+    @Autowired
+    private ClienteRepository clienteRepository;
 
     @Override
     public Iterable<Cliente> buscarTodos() {
-        return null;
+        return clienteRepository.findAll();
     }
 
     @Override
